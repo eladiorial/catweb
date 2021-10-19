@@ -5,20 +5,28 @@ app = Flask(__name__)
 
 # list of cat images 
 images = [
-    "https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    "https://images.pexels.com/photos/1314550/pexels-photo-1314550.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    "https://images.pexels.com/photos/156934/pexels-photo-156934.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    "https://images.pexels.com/photos/1560424/pexels-photo-1560424.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    "https://images.pexels.com/photos/1573324/pexels-photo-1573324.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    "https://images.pexels.com/photos/3687957/pexels-photo-3687957.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    "https://images.pexels.com/photos/4587959/pexels-photo-4587959.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    "https://images.pexels.com/photos/3054570/pexels-photo-3054570.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    "https://images.pexels.com/photos/2064110/pexels-photo-2064110.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    "https://images.pexels.com/photos/4030087/pexels-photo-4030087.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    "https://images.pexels.com/photos/4492163/pexels-photo-4492163.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    "https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    "https://images.pexels.com/photos/69932/tabby-cat-close-up-portrait-69932.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    "https://images.pexels.com/photos/248280/pexels-photo-248280.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    "https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif",
+    "https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif",
+    "https://media.giphy.com/media/nNxT5qXR02FOM/giphy.gif",
+    "https://media.giphy.com/media/WXB88TeARFVvi/giphy.gif",
+    "https://media.giphy.com/media/v6aOjy0Qo1fIA/giphy.gif",
+    "https://media.giphy.com/media/Lp5wuqMOmLUaAd0jBG/giphy.gif",
+    "https://media.giphy.com/media/xBAreNGk5DapO/giphy.gif",
+    "https://media.giphy.com/media/9IRX12VhoXoR2/giphy.gif",
+    "https://media.giphy.com/media/JoDT2WaykzFnN9vJqL/giphy.gif",
+    "https://media.giphy.com/media/TKfywHrPHpJiE/giphy.gif",
+    "https://media.giphy.com/media/rwCX06Y5XpbLG/giphy.gif",
+    "https://media.giphy.com/media/33OrjzUFwkwEg/giphy.gif",
+    "https://media.giphy.com/media/wUgWRubJHS7Ac/giphy.gif",
+    "https://media.giphy.com/media/1vZ6DEZAPMH3cOtt0d/giphy.gif",
+    "https://media.giphy.com/media/E0cyxhawhe9dm/giphy.gif",
+    "https://media.giphy.com/media/uTCAwWNtz7U2c/giphy.gif",
+    "https://media.giphy.com/media/NqZn5kPN8VVrW/giphy.gif",
+    "https://media.giphy.com/media/PqdfIrXEza6fC/giphy.gif",
+    "https://media.giphy.com/media/H2GT0TQBAlbuo/giphy.gif",
+    "https://media.giphy.com/media/2JcGvbvNalb32/giphy.gif",
+    "https://media.giphy.com/media/YJBnhs1XK9fu8/giphy.gif",
+    "https://media.giphy.com/media/SJk9xTbxcg0DFDs89d/giphy.gif"
 ]
 
 @app.route('/')
